@@ -58,12 +58,6 @@ nav ul li a:hover {
     transition: transform;
 }
 
-nav ul li a:hover {
-    color: #03c5e8;
-    font-size: 135%;
-    transition: transform;
-}
-
 .navbar li {
     display: inline-block;
     position: relative;
@@ -75,7 +69,7 @@ nav ul li a:hover {
 }
 
 .submenu li a{
-    color: #ffffff;
+    color: #eeeeee;
     font-size: 23px;
     line-height: 36px;
     padding: 0px 25px;
@@ -86,12 +80,12 @@ nav ul li a:hover {
 }
 
 .navbar li a::hover{
-    color: #000000;
+    color: #eeeeee;
 }
 
 .submenu{
-    background: rgb(0, 0, 0, 0.8);
-    border: 2px solid #1a2c28;
+    background: rgba(0,0,0,0);
+    border: 2px solid #003529;
     position: absolute;
     left: 0;
     visibility: hidden;
@@ -103,86 +97,52 @@ nav ul li a:hover {
     transition: .6s ease-in-out;
 }
 
-.navbar li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
-    transform: perspective(600px) rotateX(0deg);
-}
-
 .row {
     display: flex;
     height: 80%;
     align-items: center;
 }
 
-.col {
-    flex-basis: 50%;
-}
+
 
 h1 {
     color: #ffffff;
     font-size: 380%;
 }
 
+h5 {
+    color: white;
+    font-size: 80px;
+    margin-top: 3PX;
+    margin-left: 10px;
+}
+
 p {
-    color: #aaa7a7;
-    font-size: 90%;
-    line-height: 20px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 650px;
+    height: 220px;
+    overflow: auto;
+    white-space: pre-line;
+    text-overflow: ellipsis;
 }
 
-button {
-    width: 200px;
-    height: 40px;
-    font-size: 13px;
-    font-weight: 800;
-    padding: 12px;
-    background: white;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 10px;
-
-}
-
-button:hover {
-    background: yellow;
-}
-
-.card {
-    width: 200px;
-    height: 250px;
-    display: inline-block;
-    border-radius: 20px;
+.card img {
+    width: 400px;
+    height: 520px;
     padding: 15px 25px;
-    cursor: pointer;
-    margin: 10px 10px;
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
-
+    position: relative;
 }
 
-.card1 {
-    background-image: url(films/aquaman.jpg);
-}
-
-.card2 {
-    background-image: url(films/joker.jpg);
-}
-
-.card3 {
-
-    background-image: url(films/parker.jpg);
-}
-
-.card4 {
-    background-image: url(films/titanic.jpg);
-}
-
-.card:hover{
-    transform: translateY(-10px);
-}
-h5{
-    color:white;
-    text-shadow: 0 0 5px #000000;
+.info {
+    position: relative;
+    bottom: ;
+    left: ;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(78, 63, 63, 0.62);
+    border: 10px solid rgba(46, 29, 29, 0.42);
+    box-shadow: 0 0 6px #9fd6cb;
 }
