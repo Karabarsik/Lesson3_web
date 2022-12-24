@@ -70,11 +70,11 @@ nav ul li a:hover {
 }
 
 
-.down::after{
+.down::after {
     margin-left: 8px;
 }
 
-.submenu li a{
+.submenu li a {
     color: #ffffff;
     font-size: 23px;
     line-height: 36px;
@@ -85,25 +85,25 @@ nav ul li a:hover {
 
 }
 
-.navbar li a::hover{
+.navbar li a::hover {
     color: #000000;
 }
 
-.submenu{
+.submenu {
     background: rgb(0, 0, 0, 0.8);
     border: 2px solid #1a2c28;
     position: absolute;
     left: 0;
     visibility: hidden;
     opacity: 0;
-    z-index:5;
+    z-index: 5;
     width: 100%;
     transform: perspective(600px) rotateX(-90deg);
     transform-origin: 0% 0%;
     transition: .6s ease-in-out;
 }
 
-.navbar li:hover .submenu{
+.navbar li:hover .submenu {
     visibility: visible;
     opacity: 1;
     transform: perspective(600px) rotateX(0deg);
@@ -163,26 +163,27 @@ button:hover {
 }
 
 .card1 {
-    background-image: url(films/aquaman.jpg);
+    background-image: url(img/films/aquaman.jpg);
 }
 
 .card2 {
-    background-image: url(films/joker.jpg);
+    background-image: url(img/films/joker.jpg);
 }
 
 .card3 {
 
-    background-image: url(films/parker.jpg);
+    background-image: url(img/films/parker.jpg);
 }
 
 .card4 {
-    background-image: url(films/titanic.jpg);
+    background-image: url(img/films/titanic.jpg);
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-10px);
 }
-h5{
-    color:white;
+
+h5 {
+    color: white;
     text-shadow: 0 0 5px #000000;
 }
