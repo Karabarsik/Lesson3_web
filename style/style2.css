@@ -14,7 +14,7 @@
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navbar {
@@ -108,7 +108,7 @@ nav ul li a:hover {
     transform: perspective(600px) rotateX(0deg);
 }
 
-.col {
+col {
     flex-basis: 50%;
 }
 
@@ -118,6 +118,39 @@ p {
     line-height: 80px;
 }
 
+.colfilms{
+    height: 98%;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    /* скроллбар */
+    width: 20px;
+
+}
+
+::-webkit-scrollbar-corner {
+    /* пустота, что бы убрать не нужный ползунок)) */
+}
+
+::-webkit-scrollbar-track {
+    /* трек */
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    /* ползунок */
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
 .card {
     width: 200px;
     height: 250px;
@@ -157,7 +190,7 @@ p {
 }
 
 .card7 {
-    background-image: url(img/films/invencivel.png);
+    background-image: url(img/films/invencivel.jpg);
 }
 
 .card8 {
@@ -170,6 +203,14 @@ p {
 
 .card10 {
     background-image: url(img/films/avatar.jpg);
+}
+
+.card11 {
+    background-image: url(img/films/star_wars.webp);
+}
+
+.card12 {
+    background-image: url(img/films/hobbit.jpg);
 }
 
 

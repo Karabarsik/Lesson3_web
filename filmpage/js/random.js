@@ -1,14 +1,16 @@
 var site = [
-    "../films/Aquaman.html",
-    "../films/Joker.html",
-    "../films/Parker.html",
-    "../films/Titanik.html",
-    "../films/Aquaman.html",
-    "../films/Aquaman.html",
-    "../films/Aquaman.html",
-    "../films/Aquaman.html",
-    "../films/Aquaman.html",
-    "../films/Aquaman.html",
+    "../filmpage/Aquaman.html",
+    "../filmpage/Joker.html",
+    "../filmpage/Parker.html",
+    "../filmpage/Titanik.html",
+    "../filmpage/Spirited_away.html",
+    "../filmpage/Avatar.html",
+    "../filmpage/invencivel.html",
+    "../filmpage/Avengers.html",
+    "../filmpage/Forest_gamp.html",
+    "../filmpage/Green_mile.html",
+    "../filmpage/star_wars.html",
+    "../filmpage/hobbit.html",
 ];
 
 function randomSite() {
